@@ -3,6 +3,7 @@
     "autopct",
     "figsize",
     "histplot",
+    "kdeplot",
     "xlabel",
     "ydata",
     "ylabel"
