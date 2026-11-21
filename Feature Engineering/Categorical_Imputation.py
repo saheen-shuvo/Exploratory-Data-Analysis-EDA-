@@ -1,7 +1,8 @@
 # Categorical Value Imputation with Mode value
 
-from sklearn.impute import SimpleImputer
+from sklearn.impute import MissingIndicator, SimpleImputer
 import pandas as pd
+import numpy as np
 # Load the dataset
 df = pd.read_csv('titanic.csv')
 
